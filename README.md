@@ -37,20 +37,10 @@ LLM-Evaluation/
 │   ├── bert_score_results.csv         # BERTScore evaluation results
 │   └── human_summaries.csv            # Human-written summaries for comparison
 │
-├── notebooks/
-│   └── evaluation.ipynb               # Jupyter notebook for detailed evaluation and analysis
-│
 ├── src/
-│   ├── summarize.py                   # Main script to generate summaries using GPT-4
-│   ├── evaluate.py                    # Script to evaluate summaries using BERTScore
+│   ├── gbt4.py                   # Main script to generate summaries using GPT-4
+│   ├── bert.py                    # Script to evaluate summaries using BERTScore
 │   └── utils.py                       # Utility functions for text processing and chunking
-│
-├── scripts/
-│   ├── run_summarization.py           # Script to run the summarization pipeline
-│   └── calculate_scores.py            # Script to calculate BERTScore
-│
-├── tests/
-│   └── test_summary.py                # Unit tests for summarization and evaluation scripts
 │
 ├── Dockerfile                         # Dockerfile for containerizing the project
 ├── requirements.txt                   # Project dependencies
